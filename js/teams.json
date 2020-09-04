@@ -1,0 +1,1601 @@
+[
+	{
+	"serie": "a",
+	"teams": [
+		{
+			"id": "b4f",
+			"name": "B4 Fugin",
+			"social": {
+				"web": "",
+				"twitter": "https://twitter.com/b4cr_ofc1",
+				"facebook": "",
+				"instagram": ""
+			},
+			"staffs": [
+				{
+					"nick": "Leo",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "LY8R0P2J9",
+					"role": "COACH"
+				},
+				{
+					"nick": "CAIO",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "Q9R00U0VP",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "MarceloJr",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "LJJCG0PGP",
+					"role": "MANAGER"
+				}
+			],
+			"players": [
+				{
+					"nick": "SirNikito",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "SchneiderOld",
+					"tag": "L9R2L0J"
+				},
+				{
+					"nick": "Razzer",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "80RCRR8G"
+				},
+				{
+					"nick": "Bruno Br",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "PD_BrunoBr",
+					"tag": "LQJ20LCJ8"
+				},
+				{
+					"nick": "GVC",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "GabrielGvc3",
+					"tag": "P92GPCCV8"
+				},
+				{
+					"nick": "Richard",
+					"country": "arg",
+					"url": "player.png",
+					"twitter": "KSG_Richard",
+					"tag": "VL2U092U"
+				},
+				{
+					"nick": "Ninja",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "8JLGUCUV"
+				}
+			]
+		},
+		{
+			"id": "intz",
+			"name": "INTZ",
+			"social": {
+				"web": "https://www.intz.com.br/",
+				"twitter": "https://twitter.com/intz",
+				"facebook": "https://facebook.com/intzesports",
+				"instagram": "https://instagram.com/intzesports"
+			},
+			"staffs": [
+				{
+					"nick": "Pedro",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "LP90ULLUQ",
+					"role": "COACH"
+				},
+				{
+					"nick": "AaronXGamer",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "CU800Y28",
+					"role": "COACH"
+				},
+				{
+					"nick": "David",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "PCPJQVCV9",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "FranMuñoz",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "P8PUGR",
+					"role": "ANALISTA"
+				}
+			],
+			"players": [
+				{
+					"nick": "The Ice",
+					"country": "bra",
+					"url": "intz/TheIce.jpeg",
+					"twitter": "",
+					"tag": "R22CVC22"
+				},
+				{
+					"nick": "King Joao",
+					"country": "bra",
+					"url": "intz/KingJoao.jpeg",
+					"twitter": "kingjoaocr",
+					"tag": "28JRCUCV"
+				},
+				{
+					"nick": "Gustav0",
+					"country": "bra",
+					"url": "intz/Gustav0.jpeg",
+					"twitter": "",
+					"tag": "208JYG20U"
+				},
+				{
+					"nick": "Gustavo",
+					"country": "bra",
+					"url": "intz/Gustavo.jpeg",
+					"twitter": "",
+					"tag": "LGG2CG9GY"
+				},
+				{
+					"nick": "Joaozinhopan",
+					"country": "bra",
+					"url": "intz/Joaozinhopan.jpeg",
+					"twitter": "",
+					"tag": "20PQ909Q8"
+				},
+				{
+					"nick": "Victor",
+					"country": "bra",
+					"url": "intz/Victor.jpeg",
+					"twitter": "",
+					"tag": "LLPRYQJ8J"
+				}
+			]
+		},
+		{
+			"id": "lmt",
+			"name": "Limit eSports",
+			"social": {
+				"web": "",
+				"twitter": "https://twitter.com/_LimiTeSports",
+				"facebook": "https://facebook.com/LimiT-Esports-Gaming-1938309752847035",
+				"instagram": ""
+			},
+			"staffs": [
+				{
+					"nick": "Sky",
+					"country": "",
+					"url": "lmt/Sky.jpeg",
+					"twitter": "",
+					"tag": "LLR08L90R",
+					"role": "COACH"
+				},
+				{
+					"nick": "FmOak",
+					"country": "",
+					"url": "lmt/FmOak.jpeg",
+					"twitter": "",
+					"tag": "8P9YJC9",
+					"role": "MANAGER"
+				}
+			],
+			"players": [
+				{
+					"nick": "Renan Oak",
+					"country": "bra",
+					"url": "lmt/RenanOak.jpeg",
+					"twitter": "RenanOakCR1",
+					"tag": "LQPPU00YV"
+				},
+				{
+					"nick": "CaraDGato",
+					"country": "bra",
+					"url": "lmt/CaraDGato.jpeg",
+					"twitter": "CaraDeGatoCR",
+					"tag": "2P8RY092G"
+				},
+				{
+					"nick": "Rafael",
+					"country": "bra",
+					"url": "lmt/Rafael.jpeg",
+					"twitter": "ZRafaelCR",
+					"tag": "2VCVOYUUJ"
+				},
+				{
+					"nick": "Tiago",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "22YU2JPC0"
+				},
+				{
+					"nick": "Mini Mau",
+					"country": "",
+					"url": "player.png",
+					"twitter": "MauCr_",
+					"tag": "LJY80CRYR"
+				},
+				{
+					"nick": "Bansito",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "PGYLGGGPV"
+				}
+			]
+		},
+		{
+			"id": "ori",
+			"name": "Orion Esports",
+			"social": {
+				"web": "",
+				"twitter": "https://twitter.com/orionesportsofc",
+				"facebook": "https://facebook.com/orionesportsbr",
+				"instagram": "https://instagram.com/orionesportsofc"
+			},
+			"staffs": [
+				{
+					"nick": "DuDu",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "PG8GRU0R2",
+					"role": "COACH"
+				},
+				{
+					"nick": "Anthony",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "2VGUR8P8R",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "RAIDEN",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "22RVYCQL8",
+					"role": "MANAGER"
+				}
+			],
+			"players": [
+				{
+					"nick": "Igor",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "IgorProClash",
+					"tag": "LRRP89PR0"
+				},
+				{
+					"nick": "GG Andre",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "ANDRE12_Ruiz",
+					"tag": "9LG2LPQ"
+				},
+				{
+					"nick": "Br Hu3",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "BraHu3Player",
+					"tag": "P90CQLRPR"
+				},
+				{
+					"nick": "Gustavo",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "gustavomaiar",
+					"tag": "2299YQJ98"
+				},
+				{
+					"nick": "Força Chape",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "ForaChape5",
+					"tag": "YCPC92CC"
+				},
+				{
+					"nick": "EnderG",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "EnderDGC",
+					"tag": "CV8LQLRY"
+				}
+			]
+		},
+		{
+			"id": "png",
+			"name": "paiN Gaming",
+			"social": {
+				"web": "http://www.soupain.com.br",
+				"twitter": "https://twitter.com/paiNGamingBR",
+				"facebook": "https://www.facebook.com/paingamingbr",
+				"instagram": "https://instagram.com/paingamingbr"
+			},
+			"staffs": [
+				{
+					"nick": "Allan Franzotti",
+					"country": "bra",
+					"url": "png/Allan.jpeg",
+					"twitter": "AllanFranzotti",
+					"tag": "29CYJ82J",
+					"role": "COACH"
+				},
+				{
+					"nick": "Cartola06xp",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "Cartola06xp",
+					"tag": "YCGCCU0J",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "Amaral",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "PHAmaralCR",
+					"tag": "LUYV9V29Y",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "Meia Hora",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "meiahoracr",
+					"tag": "8PCVRV2YY",
+					"role": "ANALISTA"
+				}
+			],
+			"players": [
+				{
+					"nick": "Renan Cava",
+					"country": "bra",
+					"url": "png/RenanCava.jpeg",
+					"twitter": "RenanCavaCR",
+					"tag": "PU8YRU"
+				},
+				{
+					"nick": "LucDubs",
+					"country": "bra",
+					"url": "png/LucDubs.jpeg",
+					"twitter": "Luc_Dubs",
+					"tag": "2CC99J9Q"
+				},
+				{
+					"nick": "Coca rX",
+					"country": "bra",
+					"url": "png/CocaRx.jpeg",
+					"twitter": "CocaRX",
+					"tag": "2Q2J8LYL"
+				},
+				{
+					"nick": "Surg TS",
+					"country": "bra",
+					"url": "png/SurgTs.jpeg",
+					"twitter": "Surg_Ts",
+					"tag": "C8PU2RYY"
+				},
+				{
+					"nick": "LucasXGamer",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "9G28ULYR"
+				},
+				{
+					"nick": "Sweep",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "JUY2CJ0"
+				}
+			]
+		},
+		{
+			"id": "rju",
+			"name": "Raiju Esports",
+			"social": {
+				"web": "",
+				"twitter": "https://twitter.com/raijuesports",
+				"facebook": "https://facebook.com/raijuesports/",
+				"instagram": "https://instagram.com/raijuesports"
+			},
+			"staffs": [
+				{
+					"nick": "Ângelo",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "VJ2R998",
+					"role": "COACH"
+				},
+				{
+					"nick": "Juancho",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "2YYCJQVL",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "jolual",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "VYUPCLG",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "Francis",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "PUC2YLLLQ",
+					"role": "MANAGER"
+				}
+			],
+			"players": [
+				{
+					"nick": "XLuc",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "LYYY2GYYU"
+				},
+				{
+					"nick": "GabrielBrT",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "8PL0U2GP"
+				},
+				{
+					"nick": "Míniminter",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "2YJ09Y2JL"
+				},
+				{
+					"nick": "Calder 2",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "YRU0CQ8LP"
+				},
+				{
+					"nick": "Samuelz",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "9JG2QR98Pp"
+				},
+				{
+					"nick": "Eduu",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "QPL99CY8P"
+				}
+			]
+		},
+		{
+			"id": "shot",
+			"name": "Shot e-Sports",
+			"social": {
+				"web": "",
+				"twitter": "https://twitter.com/de_catuaba",
+				"facebook": "",
+				"instagram": "https://instagram.com/shotcatuaba"
+			},
+			"staffs": [
+				{
+					"nick": "SANDER",
+					"country": "",
+					"url": "shot/SANDER.jpeg",
+					"twitter": "",
+					"tag": "CQGYQ0GJ",
+					"role": "COACH"
+				},
+				{
+					"nick": "Wanheda",
+					"country": "",
+					"url": "shot/Wanheda.jpeg",
+					"twitter": "",
+					"tag": "LVY98QVU8",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "NOSFERATO",
+					"country": "",
+					"url": "shot/NOSFERATO.jpeg",
+					"twitter": "",
+					"tag": "LVY98QVU8",
+					"role": "CEO"
+				}
+			],
+			"players": [
+				{
+					"nick": "vitinOP",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "vitinOP",
+					"tag": "QRRUG2L8L"
+				},
+				{
+					"nick": "Ricardo CA",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "RicardoCA_cr",
+					"tag": "22LY92QQ9"
+				},
+				{
+					"nick": "Normancito",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "Norman_Cito",
+					"tag": "QL8YV00GL"
+				},
+				{
+					"nick": "FABIANO",
+					"country": "bra",
+					"url": "shot/FABIANO.jpeg",
+					"twitter": "FabianoRoyale",
+					"tag": "8LJ2LV8QQ"
+				},
+				{
+					"nick": "Malaka",
+					"country": "bra",
+					"url": "shot/Malaka.jpeg",
+					"twitter": "",
+					"tag": "V9RRVQCL"
+				},
+				{
+					"nick": "Caverna",
+					"country": "bra",
+					"url": "shot/Caverna.jpeg",
+					"twitter": "CavernaCr",
+					"tag": "90RLJJRC"
+				}
+			]
+		},
+		{
+			"id": "sng",
+			"name": "Team Singularity",
+			"social": {
+				"web": "https://teamsingularity.com/",
+				"twitter": "https://twitter.com/SNG_Esports",
+				"facebook": "https://facebook.com/SNGesports",
+				"instagram": "https://www.instagram.com/SNG_esports"
+			},
+			"staffs": [
+				{
+					"nick": "Dank Gattuso",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "2CY0QJQPV",
+					"role": "COACH"
+				},
+				{
+					"nick": "Dinarte",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "PVRRJJGG",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "Silva26",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "282VCLRJV",
+					"role": "MANAGER"
+				}
+			],
+			"players": [
+				{
+					"nick": "OS Tico",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "TicoRoyale",
+					"tag": "Q90QP89RJ"
+				},
+				{
+					"nick": "UR Wallace",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "WallaceCR_",
+					"tag": "2QJUV8PYL"
+				},
+				{
+					"nick": "Robson Stranger",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "zSapoPvP",
+					"tag": "28LVUPPCQ"
+				},
+				{
+					"nick": "LA Vitor75",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "8LJ92G8UG"
+				},
+				{
+					"nick": "Bielvinis",
+					"country": "por",
+					"url": "player.png",
+					"twitter": "bielvinis",
+					"tag": "2QOCQJQC"
+				},
+				{
+					"nick": "Boss",
+					"country": "usa",
+					"url": "player.png",
+					"twitter": "BossCR",
+					"tag": "YJ8Q2GQQ0"
+				}
+			]
+		},
+		{
+			"id": "sld",
+			"name": "Team Solid",
+			"social": {
+				"web": "https://teamsolid.com.br",
+				"twitter": "https://twitter.com/teamsolidof",
+				"facebook": "https://facebook.com/teamsolidof",
+				"instagram": "https://instagram.com/teamsolidof"
+			},
+			"staffs": [
+				{
+					"nick": "Lampião",
+					"country": "",
+					"url": "sld/Lampiao.jpg",
+					"twitter": "",
+					"tag": "PRL2CVUU",
+					"role": "COACH"
+				},
+				{
+					"nick": "Luisda",
+					"country": "",
+					"url": "sld/Luisda.jpg",
+					"twitter": "",
+					"tag": "LGPR8QYLP",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "Machado",
+					"country": "",
+					"url": "sld/Matchado.jpg",
+					"twitter": "",
+					"tag": "8V9RYQCL",
+					"role": "MANAGER"
+				}
+			],
+			"players": [
+				{
+					"nick": "xPedro",
+					"country": "ven",
+					"url": "sld/xPedro.jpg",
+					"twitter": "",
+					"tag": "VLURPP9"
+				},
+				{
+					"nick": "Artube",
+					"country": "bra",
+					"url": "sld/Artube.jpg",
+					"twitter": "",
+					"tag": "J208G2U"
+				},
+				{
+					"nick": "Airsurfer",
+					"country": "usa",
+					"url": "sld/airsurfer.jpg",
+					"twitter": "",
+					"tag": "P8VUY20C"
+				},
+				{
+					"nick": "WEN",
+					"country": "bra",
+					"url": "sld/WEN.jpg",
+					"twitter": "",
+					"tag": "820LY89YL"
+				},
+				{
+					"nick": "VICTOR",
+					"country": "bra",
+					"url": "sld/VICTOR.jpg",
+					"twitter": "",
+					"tag": "Q8G9R28UY"
+				},
+				{
+					"nick": "Samuel Bassotto",
+					"country": "bra",
+					"url": "sld/Samuel.jpg",
+					"twitter": "",
+					"tag": "PCJ29YJJ"
+				}
+			]
+		},
+		{
+			"id": "csc",
+			"name": "Ceará Titãs eSports",
+			"social": {
+				"web": "http://cearasc.com/",
+				"twitter": "https://twitter.com/CearaeSports",
+				"facebook": "https://facebook.com/cearaesports",
+				"instagram": "https://instagram.com/ceara.esports"
+			},
+			"staffs": [
+				{
+					"nick": "Alves",
+					"country": "bra",
+					"url": "csc/Alves.jpeg",
+					"twitter": "RzAlves",
+					"tag": "LQPRJGU89",
+					"role": "COACH"
+				},
+				{
+					"nick": "EduGuedes",
+					"country": "bra",
+					"url": "csc/EduGuedes.jpeg",
+					"twitter": "EduGuedes19",
+					"tag": "2PVLRG0L0",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "Allê'h",
+					"country": "bra",
+					"url": "csc/Allêh.jpeg",
+					"twitter": "Csc_Alleh",
+					"tag": "8LGLYVP2Q",
+					"role": "MANAGER"
+				}
+			],
+			"players": [
+				{
+					"nick": "El Gusta",
+					"country": "bra",
+					"url": "csc/ElGusta.jpeg",
+					"twitter": "ElGusta19",
+					"tag": "28GY02CJU"
+				},
+				{
+					"nick": "Igor",
+					"country": "bra",
+					"url": "csc/Igor.jpeg",
+					"twitter": "igorfsn027",
+					"tag": "VG0URPQ"
+				},
+				{
+					"nick": "GUSTAVOBR",
+					"country": "bra",
+					"url": "csc/GUSTAVOBR.jpeg",
+					"twitter": "HEGUSTAVOBR",
+					"tag": "VR8Y8GUY"
+				},
+				{
+					"nick": "Wes Safs",
+					"country": "bra",
+					"url": "csc/Wes.jpeg",
+					"twitter": "wsafssss",
+					"tag": "98PCY2U9U"
+				},
+				{
+					"nick": "Felps",
+					"country": "bra",
+					"url": "csc/Felps.jpeg",
+					"twitter": "FelpsEsports",
+					"tag": "92GQL889"
+				},
+				{
+					"nick": "BMX13",
+					"country": "els",
+					"url": "csc/BMX13.jpeg",
+					"twitter": "biker_cocYT",
+					"tag": "VRQQ988"
+				}
+			]
+		}
+		]
+	},
+	{
+	"serie": "b",
+	"teams": [
+		{
+			"id": "dr",
+			"name": "Dark Raiden",
+			"social": {
+				"web": "",
+				"twitter": "https://twitter.com/goDarkRaiden",
+				"facebook": "",
+				"instagram": ""
+			},
+			"staffs": [
+				{
+					"nick": "DuDu",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "PG8GRU0R2",
+					"role": "COACH"
+				},
+				{
+					"nick": "Anthony",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "Anthony22_cr",
+					"tag": "2VGUR8P8R",
+					"role": "COACH"
+				},
+				{
+					"nick": "RAIDEN",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "22RVYCQL8",
+					"role": "ANALISTA"
+				}
+			],
+			"players": [
+				{
+					"nick": "Anthony",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "Anthony22_cr",
+					"tag": "2VGUR8P8R"
+				},
+				{
+					"nick": "JoaoG0D",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "JvG0D_",
+					"tag": "299UR8VG8"
+				},
+				{
+					"nick": "Yan",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "Yanop9",
+					"tag": "QJO8QC2LY"
+				},
+				{
+					"nick": "IAGO",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "Iagoly1",
+					"tag": "220GPQJU0"
+				},
+				{
+					"nick": "Puddin",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "28LCQ8QVR"
+				},
+				{
+					"nick": "FILIPE",
+					"country": "por",
+					"url": "player.png",
+					"twitter": "XD FILIPE XD",
+					"tag": "JLVQRYQP"
+				}
+			]
+		},
+		{
+			"id": "ddg",
+			"name": "DDG eSports",
+			"social": {
+				"web": "",
+				"twitter": "https://twitter.com/DDGeSports",
+				"facebook": "https://instagram.com/ddgesports",
+				"instagram": ""
+			},
+			"staffs": [
+				{
+					"nick": "Denis",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "2JRL2RP2L",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "Nicolasextreme",
+					"country": "",
+					"url": "player.png",
+					"twitter": "Nicolasextrem15",
+					"tag": "2PPPRQR0U",
+					"role": "MANAGER"
+				}
+			],
+			"players": [
+				{
+					"nick": "nicolasextreme",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "Nicolasextrem15",
+					"tag": "2PPPRQR0U"
+				},
+				{
+					"nick": "MrSs",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "MrSs7777",
+					"tag": "QG8UUVGQ"
+				},
+				{
+					"nick": "NUNES",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "NUNESHAKAI",
+					"tag": "200RRGY8Q"
+				},
+				{
+					"nick": "Caio♥️Marina",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "CaioMarina",
+					"tag": "LG9GUCL8C"
+				},
+				{
+					"nick": "Itachi",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "YPLY0JYY"
+				},
+				{
+					"nick": "BlackMamba",
+					"country": "chi",
+					"url": "player.png",
+					"twitter": "Black_MambaCRrr",
+					"tag": "LG08PLJ2"
+				}
+			]
+		},
+		{
+			"id": "evl",
+			"name": "Evolution Gaming",
+			"social": {
+				"web": "",
+				"twitter": "https://twitter.com/EvolutionTeamOf",
+				"facebook": "",
+				"instagram": ""
+			},
+			"staffs": [
+				{
+					"nick": "Lipovisk",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "2V0RU08L",
+					"role": "COACH"
+				},
+				{
+					"nick": "Guuh Sousa",
+					"country": "",
+					"url": "evl/Guuh.jpeg",
+					"twitter": "",
+					"tag": "RLRY0QR",
+					"role": "MANAGER"
+				}
+			],
+			"players": [
+				{
+					"nick": "Nycolas",
+					"country": "bra",
+					"url": "evl/Nycolas.jpeg",
+					"twitter": "CrNycolas",
+					"tag": "22PRR8GRQ"
+				},
+				{
+					"nick": "chris",
+					"country": "bra",
+					"url": "evl/chris.jpeg",
+					"twitter": "ChrisCR11",
+					"tag": "20PVQYUGP"
+				},
+				{
+					"nick": "Vini",
+					"country": "bra",
+					"url": "evl/Vini.jpeg",
+					"twitter": "ViniTmCR",
+					"tag": "QUVGCPVQJ"
+				},
+				{
+					"nick": "Jv",
+					"country": "bra",
+					"url": "evl/jv.jpeg",
+					"twitter": "JVisGOD_",
+					"tag": "LY2L8Q9JY"
+				},
+				{
+					"nick": "MarcosF",
+					"country": "uru",
+					"url": "evl/MarcosF.jpeg",
+					"twitter": "MMMarcos7",
+					"tag": "8VGYUJJU9"
+				}
+				,
+				{
+					"nick": "Exodial",
+					"country": "",
+					"url": "evl/Exodial.jpeg",
+					"twitter": "",
+					"tag": "#"
+				}
+			]
+		},
+		{
+			"id": "fox",
+			"name": "Fox eSports",
+			"social": {
+				"web": "",
+				"twitter": "https://twitter.com/FoxeSportsGG",
+				"facebook": "",
+				"instagram": ""
+			},
+			"staffs": [
+				{
+					"nick": "J Vitor",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "2PR0UQCJ9",
+					"role": "COACH"
+				},
+				{
+					"nick": "LIPE",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "NovaLipe",
+					"tag": "P98L80PUQ",
+					"role": "ANALISTA"
+				}
+			],
+			"players": [
+				{
+					"nick": "Lincoln",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "LincolnCR_",
+					"tag": "YUYC9GP8T"
+				},
+				{
+					"nick": "Fabrício",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "FabrícioJR30",
+					"tag": "YRJJUYLLV"
+				},
+				{
+					"nick": "KyraLove",
+					"country": "col",
+					"url": "player.png",
+					"twitter": "DaylerLBI",
+					"tag": "20PRP0JY9"
+				},
+				{
+					"nick": "Lix",
+					"country": "dom",
+					"url": "player.png",
+					"twitter": "BrianCR24",
+					"tag": "LRYJ0PPUP"
+				},
+				{
+					"nick": "Cronos",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "82RLGGPVR"
+				}
+			]
+		},
+		{
+			"id": "nbr",
+			"name": "Nova Brazil",
+			"social": {
+				"web": "",
+				"twitter": "https://twitter.com/NovaBrazilTeam",
+				"facebook": "",
+				"instagram": ""
+			},
+			"staffs": [
+				{
+					"nick": "Fernando",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "CLCCVYCU",
+					"role": "COACH"
+				},
+				{
+					"nick": "Valfredo",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "2QRUR88P",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "Snow",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "8JRCCVYLR",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "Euler",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "88YJPJGG2",
+					"role": "MANAGER"
+				}
+			],
+			"players": [
+				{
+					"nick": "GustavoUnfer9",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "PJQYJCP"
+				},
+				{
+					"nick": "IgorClashBr",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "igorcr03831280",
+					"tag": "20PJY8YC"
+				},
+				{
+					"nick": "Pedro",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "PedrotmClash",
+					"tag": "9JUJRY"
+				},
+				{
+					"nick": "Esteban",
+					"country": "col",
+					"url": "player.png",
+					"twitter": "_EstebanGG_",
+					"tag": "JGJVU2"
+				},
+				{
+					"nick": "Kakaroto",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "U9JVC9J2"
+				}
+			]
+		},
+		{
+			"id": "rz",
+			"name": "Roarz Esports",
+			"social": {
+				"web": "",
+				"twitter": "https://twitter.com/roarzesports",
+				"facebook": "",
+				"instagram": ""
+			},
+			"staffs": [
+				{
+					"nick": "QF Silva",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "9YQY82RVV",
+					"role": "COACH"
+				},
+				{
+					"nick": "Guh",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "8L80GYPGY",
+					"role": "CAPITÃO"
+				}
+			],
+			"players": [
+				{
+					"nick": "Josué",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "josuutm",
+					"tag": "9CCYYG9C"
+				},
+				{
+					"nick": "Guh",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "8L80GYPGY"
+				},
+				{
+					"nick": "denisopimenta",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "⁨Denis_(CR)⁩",
+					"tag": "COL8GYCP"
+				},
+				{
+					"nick": "flakes S.A",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "8PCO92YCJ"
+				},
+				{
+					"nick": "marreta preta",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "Marretatg",
+					"tag": "2V20QV0UL"
+				},
+				{
+					"nick": "patatty",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "patatty0",
+					"tag": "L0VQQL9"
+				}
+			]
+		},
+		{
+			"id": "rfbr",
+			"name": "RED FOX BR",
+			"social": {
+				"web": "",
+				"twitter": "https://twitter.com/rfbr_official",
+				"facebook": "https://www.facebook.com/rfbrofficial",
+				"instagram": ""
+			},
+			"staffs": [
+				{
+					"nick": "PTPP95",
+					"country": "",
+					"url": "rfbr/PTPP95.jpeg",
+					"twitter": "pedrotpontes",
+					"tag": "82VCCG90P",
+					"role": "COACH"
+				},
+				{
+					"nick": "JULIANO",
+					"country": "",
+					"url": "rfbr/JULIANO.jpeg",
+					"twitter": "julianorfbr",
+					"tag": "CJJPPRQY",
+					"role": "HEAD MANAGER"
+				},
+				{
+					"nick": "PODIN",
+					"country": "",
+					"url": "rfbr/PODIN.jpeg",
+					"twitter": "PqvSou",
+					"tag": "LG0R0RQLU",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "RLEAL94",
+					"country": "",
+					"url": "player.png",
+					"twitter": "Rleal941",
+					"tag": "2CV29YG9",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "LOCKDOWN",
+					"country": "",
+					"url": "rfbr/LOCKDOWN.jpeg",
+					"twitter": "Lockdown_Clash",
+					"tag": "22VYUL28G",
+					"role": "MANAGER"
+				}
+			],
+			"players": [
+				{
+					"nick": "ERIK FS",
+					"country": "bra",
+					"url": "rfbr/ERICKFS.jpeg",
+					"twitter": "ErikS1017",
+					"tag": "YLV8G9GP0"
+				},
+				{
+					"nick": "Gustavo",
+					"country": "bra",
+					"url": "rfbr/Gustavo.jpeg",
+					"twitter": "Gustav0cr",
+					"tag": "Q8CPVJ28L"
+				},
+				{
+					"nick": "Sander",
+					"country": "bra",
+					"url": "rfbr/Sander.jpeg",
+					"twitter": "SanderCR1",
+					"tag": "LQC80C8CV"
+				},
+				{
+					"nick": "Femaso",
+					"country": "bra",
+					"url": "rfbr/Femaso.jpeg",
+					"twitter": "Femaso_cr",
+					"tag": "LL2Q0JVRQ"
+				},
+				{
+					"nick": "Massaratty",
+					"country": "bra",
+					"url": "rfbr/Massaratty.jpeg",
+					"twitter": "RFGuMassaratty",
+					"tag": "QRUVVYY2U"
+				},
+				{
+					"nick": "SamTheFineseKid",
+					"country": "por",
+					"url": "rfbr/SamTheFineseKid.jpeg",
+					"twitter": "Samuca_cr",
+					"tag": "LL28LGQJL"
+				}
+			]
+		},
+		{
+			"id": "cta",
+			"name": "Ceará Titãs Academy",
+			"social": {
+				"web": "http://cearasc.com/",
+				"twitter": "https://twitter.com/CearaeSports",
+				"facebook": "https://facebook.com/cearaesports",
+				"instagram": "https://instagram.com/ceara.esports"
+			},
+			"staffs": [
+				{
+					"nick": "Alves",
+					"country": "bra",
+					"url": "csc/Alves.jpeg",
+					"twitter": "RzAlves",
+					"tag": "LQPRJGU89",
+					"role": "COACH"
+				},
+				{
+					"nick": "EduGuedes",
+					"country": "bra",
+					"url": "csc/EduGuedes.jpeg",
+					"twitter": "EduGuedes19",
+					"tag": "2PVLRG0L0",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "Allê'h",
+					"country": "bra",
+					"url": "csc/Allêh.jpeg",
+					"twitter": "Csc_Alleh",
+					"tag": "8LGLYVP2Q",
+					"role": "MANAGER"
+				}
+			],
+			"players": [
+				{
+					"nick": "HENRIQUE",
+					"country": "bra",
+					"url": "cta/HENRIQUE.jpeg",
+					"twitter": "ttp_rick",
+					"tag": "RRL2J9JG"
+				},
+				{
+					"nick": "Júnior Clash",
+					"country": "bra",
+					"url": "cta/JúniorClash.jpeg",
+					"twitter": "Juniocrjr",
+					"tag": "92GC09UCY"
+				},
+				{
+					"nick": "Gui",
+					"country": "bra",
+					"url": "cta/Gui.jpeg",
+					"twitter": "gui01exe",
+					"tag": "LQ0PQ00C"
+				},
+				{
+					"nick": "Mion",
+					"country": "bra",
+					"url": "cta/Mion.jpeg",
+					"twitter": "",
+					"tag": "LP9C99YC"
+				},
+				{
+					"nick": "PEDRO",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "8PUP2CPR"
+				},
+				{
+					"nick": "NIKOLAS",
+					"country": "arg",
+					"url": "cta/NIKOLAS.jpeg",
+					"twitter": "nikolas_GG_",
+					"tag": "2PJVCRLG"
+				}
+			]
+		},
+		{
+			"id": "pnx",
+			"name": "Phoenix E-sports",
+			"social": {
+				"web": "",
+				"twitter": "",
+				"facebook": "",
+				"instagram": ""
+			},
+			"staffs": [
+				{
+					"nick": "Flavio valente",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "80J909QJ9",
+					"role": "COACH"
+				},
+				{
+					"nick": "Francisco gamer",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "YUVR2R2J",
+					"role": "MANAGER"
+				}
+			],
+			"players": [
+				{
+					"nick": "Vinicius",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "vinibarbosx",
+					"tag": "PCYRRP8J2"
+				},
+				{
+					"nick": "Adrian",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "82YGQQLLV"
+				},
+				{
+					"nick": "Lúcifer",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "QUL9CL00C"
+				},
+				{
+					"nick": "WILLIAM",
+					"country": "bra",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "8VG2JLGJU"
+				}
+			]
+		},
+		{
+			"id": "smr",
+			"name": "Team Samurai",
+			"social": {
+				"web": "",
+				"twitter": "https://twitter.com/TeamSamurai_",
+				"facebook": "",
+				"instagram": "https://instagram.com/teamsamuraigg/"
+			},
+			"staffs": [
+				{
+					"nick": "mateus",
+					"country": "",
+					"url": "smr/mateus.jpeg",
+					"twitter": "",
+					"tag": "2PP9V9PLG",
+					"role": "COACH"
+				},
+				{
+					"nick": "ale",
+					"country": "",
+					"url": "smr/ale.jpeg",
+					"twitter": "",
+					"tag": "2YQ8GYQJ",
+					"role": "COACH"
+				},
+				{
+					"nick": "JorgeBest",
+					"country": "",
+					"url": "player.png",
+					"twitter": "",
+					"tag": "G8U28Q8C",
+					"role": "ANALISTA"
+				},
+				{
+					"nick": "BOT",
+					"country": "",
+					"url": "smr/BOT.jpeg",
+					"twitter": "",
+					"tag": "82YYQJLVR",
+					"role": "MANAGER"
+				},
+				{
+					"nick": "Gagarto",
+					"country": "",
+					"url": "smr/Gagarto.jpeg",
+					"twitter": "",
+					"tag": "892RUL99Q",
+					"role": "MANAGER"
+				}
+			],
+			"players": [
+				{
+					"nick": "Thomas",
+					"country": "bra",
+					"url": "smr/Thomas.jpeg",
+					"twitter": "SMRxThomas",
+					"tag": "8U0P92L80"
+				},
+				{
+					"nick": "StangSand",
+					"country": "bra",
+					"url": "smr/StangSand.jpeg",
+					"twitter": "StangSand",
+					"tag": "J8Y9RQV"
+				},
+				{
+					"nick": "Vinicius",
+					"country": "bra",
+					"url": "smr/Vinicius.jpeg",
+					"twitter": "Vinicius_OP2",
+					"tag": "8GV0CUQP2"
+				},
+				{
+					"nick": "Electr1fyItzz",
+					"country": "bra",
+					"url": "smr/Electr1fyItzz.jpeg",
+					"twitter": "Electr1fyItzz",
+					"tag": "LPVL2YCCY"
+				},
+				{
+					"nick": "Shekelo",
+					"country": "hon",
+					"url": "smr/Shekelo.jpeg",
+					"twitter": "ShekeloCR",
+					"tag": "G9P0YLL"
+				},
+				{
+					"nick": "Mogo",
+					"country": "ven",
+					"url": "smr/Mogo.jpeg",
+					"twitter": "MogoCR",
+					"tag": "YCYPRVVQ"
+				}
+			]
+		}
+		]
+	}
+]

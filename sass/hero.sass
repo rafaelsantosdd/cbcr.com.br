@@ -1,0 +1,1543 @@
+// =====================================
+// HOME
+// =====================================
+
+.hero
+	width: 100%
+	height: 100vh
+	overflow: hidden
+	color: white
+	background: url('../imgs/hero_bg.png') no-repeat bottom center
+	background-size: cover
+
+.hero_header
+	position: absolute
+	top: 0
+
+	.header_logo, .header_menu
+		z-index: 2
+
+.hero_call_wrap
+	height: 100%
+	display: flex
+	align-items: center
+
+.hero_call
+	width: 100%
+	position: relative
+
+	p
+		margin: 0
+		padding: 0
+		@extend %text
+		font-weight: 600
+
+		&.hero_call_minor
+			+font-size2(3.8rem)
+			letter-spacing: 0.3rem
+			margin-bottom: 1rem
+
+			@media (max-width: 1024px)
+				+font-size2(2.7rem)
+
+			@media (max-width: 768px)
+				+font-size2(2.1rem)
+
+			@media (max-width: 768px)
+				+font-size2(1.6rem)
+
+		&.hero_call_major
+			+font-size2(9.0rem)
+			letter-spacing: 0.15rem
+			margin-top: -1.2rem
+
+			@media (max-width: 1024px)
+				+font-size2(6.7rem)
+
+			@media (max-width: 768px)
+				+font-size2(5.1rem)
+
+			@media (max-width: 480px)
+				font-size: 3.8rem
+				line-height: 6rem
+
+			@media (max-width: 375px)
+				font-size: 2.7rem
+				line-height: 4.7rem
+
+.hero_arrow_down
+	position: absolute
+	bottom: -9rem
+	left: 50%
+	transform: translateX(-50%)
+	width: 4.55rem
+
+	svg
+		width: 100%
+
+		polyline
+			fill: none
+			stroke: white
+			stroke-width: 7
+			stroke-miterlimit: 10
+
+	@media (max-width: 768px)
+		width: 3.8rem
+		bottom: -11rem
+
+	@media (max-width: 480px)
+		bottom: -16rem
+
+// =====================================
+// NOTÍCIAS
+// =====================================
+
+.noticias
+	background-color: $black
+	margin-top: -1px
+
+h2.noticias_main_title
+	@extend %title
+	font-size: 2.7rem
+	display: inline-block
+	margin: 0
+	color: #CFD8DC
+	letter-spacing: 0.1rem
+
+	@media (max-width: 480px)
+		font-size: 2.1rem
+
+	@media (max-width: 320px)
+		font-size: 1.8rem
+
+.noticias_seeall
+	display: inline-block
+	margin-left: 3.8rem
+
+	a
+		@extend %text
+		font-size: 1.6rem
+		font-weight: 600
+		letter-spacing: 0.2rem
+		color: $gray
+
+	@media (max-width: 480px)
+		margin-left: 2.7rem
+
+		a	
+			font-size: 1.4rem
+
+	@media (max-width: 320px)
+		margin-left: 2.1rem
+
+		a
+			font-size: 1.2rem
+
+
+.noticias_inner
+	width: calc(100% + 0.8rem)
+	margin-top: 3.8rem
+	margin-left: -0.8rem
+	display: flex
+	flex-flow: row wrap
+
+	@media (max-width: 768px)
+		display: block
+
+	@media (max-width: 425px)
+		margin-top: 2.7rem
+
+.noticias_control
+	width: percentage(1/3)
+	padding: 0 0.8rem
+	margin-bottom: 1.6rem
+
+	@media (max-width: 768px)
+		width: 100%
+		padding: 1.35rem 0
+
+.noticias_wrap
+	position: relative
+	width: 100%
+	padding-top: percentage(9/16)
+
+.noticias_box
+	position: absolute
+	top: 0
+	left: 0
+	bottom: 0
+	right: 0
+	border-radius: 5px
+	overflow: hidden
+
+	&:after
+		content: ""
+		display: block
+		position: absolute
+		top: -50%
+		left: -15%
+		bottom: 0px
+		right: 0
+		transform: translateY(50%) rotate(15deg)
+		background: linear-gradient(rgba(0, 106, 198, 0), rgba(0, 106, 198, 0.6), rgba(2, 106, 198, 0.9), rgba(0, 106, 198, 1), rgba(0, 106, 198,1))
+
+	img
+		object-fit: cover
+		height: 100%
+		transition: 1s cubic-bezier(0.33, 1, 0.68, 1)
+		position: absolute
+		left: 50%
+		transform: translateX(-50%) scale(1)
+
+	&:hover img
+		transform: translateX(-50%) scale(1.1)
+
+a.noticias_url
+	display: block
+	position: absolute
+	top: 0
+	left: 0
+	bottom: 0
+	right: 0
+	z-index: 3
+
+.noticias_external
+	position: absolute
+	right: 1.6rem
+	top: 1.6rem
+	font-size: 1.2rem
+	color: white
+	z-index: 1
+
+.noticias_box_text
+	position: absolute
+	bottom: 1.6rem
+	left: 1.6rem
+	z-index: 2
+
+.noticias_box_title, .noticias_box_date
+	@extend %text
+
+.noticias_box_title
+	+font-size2(2.1rem)
+	color: white
+
+	@media (max-width: 768px)
+		+font-size2(2.7rem)
+
+	@media (max-width: 480px)
+		+font-size2(2.1rem)
+
+.noticias_box_date
+	font-size: 1.2rem
+	letter-spacing: 0.15rem
+	color: white
+	opacity: .8
+	margin-bottom: 0.6rem
+	margin-top: 0
+
+	@media (max-width: 768px)
+		font-size: 1.6rem
+		margin-bottom: 1rem
+
+	@media (max-width: 480px)
+		font-size: 1.2rem
+
+
+
+// =====================================
+// CLASSIFICAÇÃO
+// =====================================
+
+.ranking
+	background: url('../imgs/ranking_bg.jpg') no-repeat center top
+	background-size: contain
+	background-blend-mode: color-dodge
+	background-color: $yellow1
+	transition: 0.15s ease-in-out
+
+	h2
+		color: white
+
+		&:last-of-type
+			margin: 9.6rem 0 6.7rem!important
+
+.ranking_table_title
+	font-size: 2.7rem
+	text-align: center
+	margin: 9rem 0 1.6rem
+
+.ranking--b
+	background-color: $green
+
+.table--serieb
+	display: none
+
+.ranking_panel
+	display: flex
+	justify-content: center
+	margin: 6.7rem auto 3.8rem
+
+.ranking_controller
+	display: inline-block
+	background-color: $black
+	padding: 1.6rem
+	font-size: 2.7rem
+	font-weight: 500
+	color: white
+	@extend %title
+	transition: 0.15s ease-in-out
+
+	span
+		transition: 0.15s ease-in-out
+
+	&:first-child
+		margin-right: 1.6rem
+
+	&.disabled, &.disabled span
+		color: $darkgray
+
+	&.disabled
+		&:hover
+			color: white
+
+		&:hover span.seriea
+			color: $yellow1
+
+		&:hover span.serieb
+			color: $green
+
+	@media (max-width: 768px)
+		font-size: 2.1rem
+
+.ranking_table
+	width: 100%
+
+	caption
+		display: none
+
+	table
+		width: 100%
+		border: none
+		border-collapse: collapse
+
+		tr
+			height: 5.1rem
+			border-bottom: 1px solid rgba(0,0,0,.3)
+
+			&:last-child
+				border: none
+
+			th, td
+				width: 9rem
+				font-size: 1.6rem
+				text-align: center
+
+				&.column-1, &.column-3
+					font-weight: 600
+
+				&.column-3
+					width: calc(100% - 54rem)
+					text-align: left
+
+				&.column-8
+					display: none
+
+				@media (max-width: 768px)
+					&.column-3, &.column-6, &.column-7
+						display: none
+
+			th
+				@extend %title
+				opacity: .6
+				letter-spacing: 0.05rem
+
+				&.column-6, &.column-7
+					opacity: .4
+
+			td
+				@extend %text
+				font-weight: 500
+				height: 5.1rem
+				padding: 1rem 1rem 0.6rem 0
+
+
+				&.column-6, &.column-7
+					opacity: .5
+
+				img
+					width: auto
+					height: 100%
+
+				span
+					display: inline-block
+					width: 2.7rem
+					height: 2.7rem
+					padding-top: 0.5rem
+					background: white
+					border-radius: 5px
+
+		tbody tr
+			cursor: pointer
+
+			&:hover
+				background: rgba(255,255,225,.2)
+
+.stats_table
+	position: relative
+	width: 100%
+	height: 575px
+	overflow: hidden
+
+	&.more
+		height: auto
+
+	caption
+		display: none
+
+	table
+		width: 100%
+		border: none
+		border-collapse: collapse
+		margin-bottom: 55px
+
+		tr
+			height: 5.1rem
+
+			&:last-child
+				border: none
+
+			th, td
+				width: 9rem
+				font-size: 1.6rem
+				text-align: center
+
+				@media (max-width: 768px)
+					&.column-4,
+					&.column-5,
+					&.column-7,
+					&.column-8,
+					&.column-10,
+					&.column-11
+						display: none
+
+		th, tr.row-2 td
+			@extend %title
+			opacity: .6
+			letter-spacing: 0.05rem
+
+		tr:not(.row-2) td
+			@extend %text
+			font-weight: 500
+			height: 5.1rem
+			padding: 1rem 1rem 0.6rem 0
+
+			&.column-3
+				font-weight: 700
+
+			img
+				width: auto
+				height: 100%
+
+			span
+				display: inline-block
+				width: 2.7rem
+				height: 2.7rem
+				padding-top: 0.5rem
+				background: white
+				border-radius: 5px
+
+		.column-4, .column-7, .column-10
+			border-left: 1px solid rgba(255,255,255,0.3)
+
+		tbody 
+			tr:not(.row-2):hover td:not(.column-1)
+				background: rgba(255,255,225,.2)
+
+			tr:not(.row-2) td:not(.column-1)
+				border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+
+.stats_table_showmore, .stats_table_showless
+	display: flex
+	justify-content: center
+	align-items: center
+	position: absolute
+	bottom: 0
+	left: 0
+	right: 0
+	height: 55px
+	cursor: pointer
+	z-index: 2
+
+	span
+		display: block
+		font-size: 1.6rem
+		letter-spacing: 0.05rem
+		color: white
+		font-weight: 700
+
+.stats_table_showless
+	display: none
+
+.table--seriea
+	.stats_table_showmore, .stats_table_showless
+		background: linear-gradient(rgba(255, 182, 0, 0), rgba(255, 182, 0, .8), #ffb600)
+
+.table--serieb
+	.stats_table_showmore, .stats_table_showless
+		background: linear-gradient(rgba(0, 146, 69, 0), rgba(0, 146, 69, .8), #009245)
+
+
+
+// RANKING TEAM INFO
+
+.ranking_team_group
+	position: fixed
+	top: 0
+	right: 0
+	left: 0
+	height: 100vh
+	background: rgba(0,0,0,0)
+	transition: 0.5s ease-in-out
+	z-index: 99
+	pointer-events: none
+	
+	&.open
+		background: rgba(0,0,0,.7)
+		pointer-events: auto
+
+		.ranking_team
+			transform: translateX(0)
+			box-shadow: -2rem 0rem 3rem 0rem rgba(0,0,0,.4)
+
+.ranking_team
+	position: absolute
+	top: 0
+	left: 16.5rem
+	right: 0
+	bottom: 0
+	background: $black
+	color: white
+	overflow-x: hidden
+	overflow-y: auto
+	transform: translateX(100%)
+	transition: 0.5s cubic-bezier(0.33, 1, 0.68, 1)
+	box-shadow: none
+
+	&.--a
+		.series_info .ranking_team_stats_box:first-child
+			background-color: $yellow1
+
+		.ranking_team_wrapper:after, .ranking_team_wrapper:before
+			background: linear-gradient(rgba(255,182,0,.4),rgba(255,182,0,0))
+
+	&.--b
+		.series_info .ranking_team_stats_box:first-child
+			background-color: $green
+
+		.ranking_team_wrapper:after, .ranking_team_wrapper:before
+			background: linear-gradient(rgba(0,146,69,.6),rgba(0,146,69,0))
+
+	@media (max-width: 1024px)
+		left: 9.7rem
+
+	@media (max-width: 480px)
+		left: 4.85rem
+
+.ranking_team_wrapper
+	position: relative
+	width: 100%
+	padding-bottom: 9.6rem
+
+	&:after, &:before
+		content: ""
+		display: block
+		position: absolute
+		width: 100%
+		height: 38rem
+		z-index: -1
+
+	&:before
+		top: 0
+		right: 0
+		transform: translate(50%,-50%) rotate(35deg)
+
+		@media (max-width: 768px)
+			transform: translate(50%,-60%) rotate(35deg)
+
+		@media (max-width: 375px)
+			transform: translate(50%,-70%) rotate(35deg)
+
+	&:after
+		top: 0
+		left: 0
+		transform: translate(-50%,-50%) rotate(-20deg)
+
+		@media (max-width: 768px)
+			transform: translate(-50%,-80%) rotate(-20deg)
+
+.ranking_team_close 
+	right: 4.8rem
+
+	span
+		top: 52.5%
+		transform: translateY(-50%)
+
+		&:first-child
+			transform: rotate(45deg)
+		
+		&:last-child
+			transform: rotate(-45deg)
+
+	@media (max-width: 768px)
+		right: 3.35rem
+
+	@media (max-width: 480px)
+		right: 1.9rem
+
+.ranking_team_top
+	width: 100%
+	position: relative
+	padding-top: 9.6rem
+
+	@media (max-width: 480px)
+		padding-top: 11rem
+
+.ranking_team_row
+	width: 100%
+	display: flex
+	height: 9.6rem * 4
+
+	@media (max-width: 1024px)
+		flex-flow: column nowrap
+		height: auto
+
+.ranking_team_container
+	width: calc(100% - 11.8rem)
+	margin: 0 auto
+
+	@media (max-width: 768px)
+		width: calc(100% - 3.35rem)
+
+	@media (max-width: 480px)
+		width: calc(100% - 1.9rem)
+
+.ranking_team_watermark
+	position: absolute
+	top: -25%
+	right: 25%
+	opacity: .05
+	z-index: -1
+
+	@media (max-width: 480px)
+		top: -5%
+		right: 10%
+
+.ranking_team_stats
+	flex-grow: 1
+	flex-basis: 0
+	margin-top: 6.7rem
+
+	@media (max-width: 1024px)
+		order: 2
+		margin-top: 3.8rem
+
+.ranking_team_stats_content
+	width: 100%
+	display: flex
+	justify-content: center
+
+	@media (max-width: 1024px)
+		flex-flow: row wrap
+
+.ranking_team_stats_box
+	position: relative
+	width: 4.8rem
+	height: 4.8rem
+	margin: 0 4.8rem 0 0
+	display: flex
+	justify-content: center
+	padding-top: .6rem
+
+	&:last-child
+		margin: 0
+
+.series_info
+	.ranking_team_stats_box
+		border-radius: 5px
+		color: $black
+		
+		&:first-child
+			border-radius: 100%
+			color: white
+
+		&:nth-child(2)
+			background-color: $gray
+
+		&:last-child
+			background-color: white
+			margin: 0
+
+		@media (max-width: 375px)
+			margin: 0 3.8rem 0 0
+
+		@media (max-width: 320px)
+			margin: 0 2.7rem 0 0
+
+	@media (max-width: 1024px)
+		margin-top: 9.6rem
+
+.series_matches
+	.ranking_team_stats_box
+		@media (max-width: 1024px)
+			margin: 3.8rem 4.8rem 0 0
+
+			&:last-child
+				margin: 3.8rem 0 0 0
+
+		@media (max-width: 1024px)
+			margin: 3.8rem 0 0 0
+			width: 20%
+
+		@media (max-width: 375px)
+			width: 50%
+
+	@media (max-width: 375px)
+		padding: 0 15%
+
+.ranking_team_stats_header
+	position: absolute
+	top: -2.1rem
+	left: 50%
+	transform: translateX(-50%)
+	display: block
+	color: #90A4AE
+	font-size: 1.2rem
+	@extend %text
+	font-weight: 600
+
+.ranking_team_stats_number
+	font-size: 2.7rem
+	@extend %title
+
+.ranking_team_header
+	flex-grow: 0
+
+	@media (max-width: 768px)
+		order: 1
+
+.ranking_team_logo
+	display: flex
+	justify-content: center
+	height: 9.6rem * 2
+	margin: 0 auto
+
+	img
+		object-fit: contain
+
+	@media (max-width: 480px)
+		width: calc(100% - 5.4rem)
+
+.ranking_team_name
+	@extend %title
+	font-size: 3.8rem
+	letter-spacing: 0.1rem
+	text-align: center
+	margin: 1.8rem auto 0
+
+	@media (max-width: 768px)
+		width: calc(100% - 3.8rem)
+
+.ranking_team_social
+	display: flex
+	justify-content: center
+	margin-top: 4.8rem
+	opacity: .7
+
+.ranking_team_social_icon
+	display: inline-block
+	font-size: 2.7rem
+	margin-left: 1.6rem
+	margin-right: 1.6rem
+	color: #78909C
+
+.ranking_team_title_row
+	width: 100%
+	height: 9.6rem
+	padding-left: 6.7rem
+	padding-right: 6.7rem
+
+	@media (max-width: 1024px)
+		padding-left: 2.4rem
+		padding-right: 2.4rem
+		margin-top: 5.1rem
+
+.ranking_team_title_wrapper
+	width: 50%
+	height: 100%
+	display: flex
+	align-items: center
+
+	@media (max-width: 768px)
+		width: 100%
+
+.ranking_team_title
+	font-size: 2.7rem
+	padding-right: 2.7rem
+	letter-spacing: .15rem
+	color: #90A4AE
+
+	@media (max-width: 375px)
+		font-size: 2.1rem
+
+.ranking_team_title_separator
+	flex-grow: 1
+
+.ranking_team_title_line
+	display: block
+	width: 100%
+	height: 1px
+	background-color: white
+	opacity: .3
+
+.ranking_team_roster, .ranking_team_staff
+	width: 100%
+	display: flex
+	flex-flow: row wrap
+	justify-content: center
+	
+.ranking_team_player
+	position: relative
+	width: 25%
+	margin-bottom: 1.6rem
+
+	@media (max-width: 1024px)
+		width: percentage(1/3)
+
+	@media (max-width: 768px)
+		width: 50%
+
+	@media (max-width: 375px)
+		width: 100%
+
+.ranking_team_player_card
+	position: relative
+	width: calc(100% - 1.6rem)
+	padding-top: 133.333333%
+	margin: 0 auto
+
+	@media (max-width: 435px)
+		padding-top: 150%
+
+	@media (max-width: 375px)
+		padding-top: 133.333333%
+
+.ranking_team_player_photo,
+.ranking_team_player_info
+	position: absolute
+	left: 0
+	right: 0
+
+.ranking_team_player_photo
+	top: 0
+	bottom: calc(25% + 1.6rem)
+	background: rgba(255,255,255,.05)
+	border-radius: 10px 10px 0 0
+
+	@media (max-width: 435px)
+		bottom: calc(33.33333% + 1.6rem)
+
+	@media (max-width: 375px)
+		bottom: calc(25% + 1.6rem)
+
+.ranking_team_player_photocontainer
+	position: absolute
+	top: 2.1rem
+	left: 2.1rem
+	right: 2.1rem
+	bottom: 0
+	display: flex
+	align-items: flex-end
+
+	img
+		max-height: 100%
+		object-fit: contain
+
+.ranking_team_player_role,
+.ranking_team_player_country
+	position: absolute
+	bottom: 1.6rem
+	margin: 0
+
+.ranking_team_player_role
+	left: 1.6rem
+	font-size: 1.4rem
+	font-weight: 500
+	letter-spacing: .15rem
+	color: white
+
+.ranking_team_player_country
+	right: 1.6rem
+	width: 2.7rem
+
+.ranking_team_player_info
+	top: calc(75% - 1.6rem)
+	bottom: 0
+	background: white
+	border-radius: 0 0 10px 10px
+
+	@media (max-width: 435px)
+		top: calc(66.66666% - 1.6rem)
+
+	@media (max-width: 375px)
+		top: calc(75% - 1.6rem)
+
+.ranking_team_player_naming
+	position: absolute
+	top: 1.6rem
+	left: 1.6rem
+
+.ranking_team_player_nick,
+.ranking_team_player_name
+	margin: 0
+	padding: 0
+
+.ranking_team_player_nick
+	font-size: 2.7rem
+	font-weight: 600
+	color: $black
+
+	@media (max-width: 768px)
+		font-size: 2.1rem
+
+	@media (max-width: 375px)
+		font-size: 2.7rem
+
+.ranking_team_player_name
+	font-size: 1.6rem
+	letter-spacing: 0.1rem
+	margin-top: 0.5rem
+	opacity: .7
+	font-weight: 500
+
+.ranking_team_player_social
+	position: absolute
+	bottom: 1.6rem
+	right: 1.6rem
+	opacity: .5
+
+.ranking_team_player_social_icon
+	display: inline-block
+	font-size: 1.6rem
+	margin-right: 1.6rem
+	color: $black
+
+	&:last-child
+		margin-right: 0
+
+	@media (max-width: 375px)
+		font-size: 2rem
+
+.ranking_team_player_tag
+	position: absolute
+	bottom: 1.6rem
+	left: 1.6rem
+	font-size: 1.6rem
+	color: $black
+	opacity: .6
+	text-decoration: underline
+
+	@media (max-width: 768px)
+		font-size: 1.2rem
+
+	@media (max-width: 375px)
+		font-size: 1.4rem
+
+
+
+
+
+
+
+// =====================================
+// AGENDA
+// =====================================
+
+.agenda
+	background: $black
+
+.agenda_title
+	color: white
+	margin-bottom: 2.7rem!important
+
+.agenda_controllers
+	margin: 5.1rem 0 3.8rem
+
+	ul
+		display: flex
+		justify-content: center
+
+		li
+			display: inline-block
+			margin-right: 3.8rem
+			border-bottom: 3px solid $black
+			transition: 0.15s ease-in-out
+
+			a
+				display: block
+				padding-bottom: 0.4rem
+				font-size: 1.6rem
+				font-weight: 600
+				color: $gray
+				letter-spacing: 0.2rem
+				transition: 0.15s ease-in-out
+
+				@media (max-width: 768px)
+					font-size: 1.4rem
+
+			&.active, &.slick-current
+				border-bottom: 3px solid white
+
+				a
+					color: white
+
+	&.--desktop ul li:hover
+		a
+			color: white
+
+	&.--mobile
+		padding: 3.8rem 0
+		margin: 0
+		background-color: $black
+
+		@media (max-width: 480px)
+			position: -webkit-sticky
+			position: sticky
+			top: 6.7rem
+			z-index: 10
+
+		// &.fixed
+		// 	position: fixed
+		// 	top: 9.6rem
+		// 	left: 2.55rem
+		// 	right: 2.55rem
+
+.agenda_slider_wrap
+	position: relative
+	width: 100%
+
+.agenda_slider_container
+	position: absolute
+	width: 100%
+	cursor: grab
+	visibility: hidden
+
+	&.visible
+		visibility: visible
+
+.agenda_slider
+	position: relative
+	width: 100%
+	padding: 0 2.8rem
+
+	@media (max-width: 580px)
+		padding: 0 2.1rem
+
+	@media (max-width: 580px)
+		padding: 0 1.6rem
+
+	.slick-track
+		margin: 0
+
+	&:after
+		content: ""
+		display: block
+		clear: both
+
+	.slick-arrow
+		position: absolute
+		display: block
+		padding: 1rem
+		top: 50%
+		transform: translateY(-50%)
+		font-family: "Font Awesome 5 Free"
+		font-weight: 900
+		font-size: 0
+		line-height: 0
+		cursor: pointer
+
+		&:before
+			display: block
+			font-size: 2.1rem
+			color: white
+			text-align: center
+
+		@media (max-width: 580px)
+			width: 3.4rem
+
+		@media (max-width: 425px)
+			width: 3.2rem
+
+		&.slick-disabled
+			cursor: default
+
+			&:before
+				color: #455A64
+
+	.slick-prev
+		left: -1rem
+
+		&:before
+			content: "\f053"
+
+	.slick-next
+		right: -1rem
+
+		&:before
+			content: "\f054"
+
+.agenda_slider_inner
+	width: 100%
+	overflow: hidden
+
+.agenda_slider_content
+	transform: translateX(0)
+	transition: 0.3s ease-in-out
+
+.agenda_partida_box
+	position: relative
+	margin-left: 0.8rem
+	margin-right: 0.8rem
+	background: $blue
+	border-radius: 5px
+	overflow: hidden
+
+	@media (max-width: 480px)
+		float: left
+		width: 100%
+		margin: 0 0 2.7rem 0
+
+.agenda_partida
+	position: relative
+	padding-top: percentage(1/1.618)
+	width: 100%
+
+	&:after
+		content: ""
+		display: block
+		position: absolute
+		top: 0
+		right: 0
+		left: 0
+		bottom: 70%
+		background: linear-gradient(rgba(0, 12, 17,.4),rgba(0, 12, 17,0))
+
+.agenda_partida.hasresults
+	.agenda_partida_team1, .agenda_partida_team2
+		&.loser
+			img, .agenda_partida_results
+				opacity: .6
+				filter: grayscale(1)
+
+	.agenda_partida_hour
+		opacity: .7
+
+	.agenda_partida_teamlogo
+		width: calc(100% - 7rem)
+
+	.agenda_partida_results
+		display: block
+
+	.agenda_partida_vs
+		top: 50%
+
+	.agenda_partida_playoffs
+		display: none
+
+.agenda_partida_team1, .agenda_partida_team2
+	position: absolute
+	top: 0
+	bottom: 0
+
+.agenda_partida_teamlogo
+	position: absolute
+	display: flex
+	flex-flow: column wrap
+	justify-content: center
+	align-content: center
+	width: 50%
+	height: 33.32%
+	top: 37.5%
+	transform: translateX(-50%)
+
+	img
+		object-fit: contain
+		height: 100%
+
+.agenda_partida_team1
+	left: 0
+	right: 50%
+
+	.agenda_partida_teamlogo, .agenda_partida_results
+		left: 45%
+
+.agenda_partida_team2
+	left: 50%
+	right: 0
+
+	.agenda_partida_teamlogo, .agenda_partida_results
+		left: 55%
+
+.agenda_partida_nodefined
+	@extend %title
+	font-size: 3.8rem
+	line-height: 0
+	font-weight: 600
+	text-align: center
+	margin: 0 0 0.5rem
+	color: $black
+	opacity: .4
+
+.agenda_partida_results
+	display: none
+	position: absolute
+	bottom: 0.8rem
+	transform: translateX(-50%)
+	margin: 0
+	font-size: 2.1rem
+	color: white
+	@extend %text
+	font-weight: 600
+
+	@media (max-width: 580px) and (min-width: 480px)
+		font-size: 1.6rem	
+
+.agenda_partida_playoffs
+	position: absolute
+	bottom: 1rem
+	left: 50%
+	transform: translateX(-50%)
+	margin: 0
+	font-size: 1.2rem
+	letter-spacing: .1rem
+	color: white
+	@extend %text
+	font-weight: 500
+
+	@media (max-width: 580px) and (min-width: 480px)
+		font-size: 1.6rem
+		bottom: 0.8rem	
+
+.agenda_partida_vs
+	display: block
+	position: absolute
+	top: 55%
+	left: 50%
+	transform: translate(-50%,-50%)
+	z-index: 3
+	color: white
+	@extend %text
+	font-weight: 600
+	font-size: 2.8rem
+
+	@media (max-width: 768px)
+		font-size: 2.4rem
+
+	@media (max-width: 480px)
+		font-size: 2.1rem
+
+.agenda_partida_serie,
+.agenda_partida_day,
+.agenda_partida_hour
+	position: absolute
+	top: 0
+	width: percentage(1/3)
+	text-align: center
+	margin: 0
+	padding: 0.8rem 0
+	font-size: 1.2rem
+	z-index: 1
+
+	@media (max-width: 580px) and (min-width: 481px)
+		font-size: 1rem
+		padding: 0.6rem 0
+
+	@media (max-width: 480px) and (min-width: 375px)
+		font-size: 1.6rem
+
+.agenda_partida_serie
+	left: 50%
+	transform: translateX(-50%)
+	font-weight: 600
+	background: $black
+	color: white
+	border-radius: 0 0 5px 5px
+
+.agenda_partida_day, .agenda_partida_hour
+	color: white
+	letter-spacing: 0.05rem
+
+.agenda_partida_day
+	font-weight: 600
+	left: 0
+
+.agenda_partida_hour
+	font-weight: 500
+	right: 0
+	font-style: italic
+
+
+
+
+
+
+
+// =====================================
+// SOBRE
+// =====================================
+
+.sobre
+	background-color: #ECEFF1
+
+	p
+		font-size: 1.6rem
+		line-height: 2.7rem
+		opacity: .8
+
+	h3
+		margin-bottom: 2.7rem!important
+
+.sobre_content
+	display: flex
+	flex-flow: row wrap
+	align-items: center
+	margin-top: 3.8rem
+	margin-bottom: 2.7rem
+
+	@media (max-width: 768px)
+		display: block
+
+.sobre_descricao
+	width: percentage(6/12)
+	margin-right: percentage(2/12)
+
+	@media (max-width: 768px)
+		width: 100%
+		max-width: 500px
+		margin: 0
+
+.sobre_coroa
+	width: 20rem
+
+	img
+		margin-bottom: 2.7rem
+
+	@media (max-width: 768px)
+		margin: 5.1rem auto 0
+
+
+.sobre_casters
+	display: flex
+
+	@media (max-width: 768px)
+		display: block
+
+.sobre_imgs
+	position: relative
+	width: percentage(5/12)
+	margin-right: percentage(2/12)
+
+	@media (max-width: 768px)
+		width: 100%
+		margin: 0
+
+.sobre_imgs_slider
+	position: relative
+	width: 100%
+
+	.slick-dots
+		position: absolute
+		bottom: -3.8rem
+		left: -0.75rem
+		width: 100%
+		list-style: none
+		padding: 0
+		margin: 0
+
+		li
+			position: relative
+			display: inline-block
+			margin-right: 3.8rem
+			width: 2rem
+			height: 2rem
+
+			&:last-child
+				margin: 0
+
+			button
+				font-size: 0
+				line-height: 0
+				display: block
+				width: 2rem
+				height: 2rem
+				cursor: pointer
+				color: transparent
+				border: 0
+				outline: none
+				background: transparent
+
+				&:before
+					content: '•'
+					display: block
+					position: absolute
+					top: 0
+					left: 0
+					font-size: 2.7rem
+					line-height: 1.2rem
+					width: 100%
+					height: 100%
+					text-align: center
+					color: $black
+					transition: 0.15s ease-in-out
+					opacity: .3
+
+			&.slick-active button:before
+				opacity: 1
+	
+	@media (max-width: 768px)
+		width: 85%
+		margin: 0 auto
+
+	.slick-arrow
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
+		font-family: "Font Awesome 5 Free"
+		font-weight: 900
+		font-size: 0
+		line-height: 0
+		width: 2rem
+		height: 2rem
+		padding: 0
+
+		&:before
+			display: block
+			font-size: 1.6rem
+			text-align: center
+
+	.slick-prev
+		left: -3.8rem
+
+		&:before
+			content: "\f053"
+
+		@media (max-width: 768px)
+			left: -2.7rem
+
+	.slick-next
+		right: -3.8rem
+
+		&:before
+			content: "\f054"
+
+		@media (max-width: 768px)
+			right: -2.7rem
+
+.sobre_imgs_name
+	position: relative
+	width: 100%
+	height: 4.8rem
+	margin-top: 5.1rem
+	margin-left: 5.1rem
+	overflow: hidden
+
+	h4
+		position: absolute
+		top: 0
+		right: 0
+		@extend %text
+		font-size: 5rem
+		line-height: 5rem
+		text-align: right
+		transform: translateX(100%)
+		transition: 0.35s cubic-bezier(0.83, 0, 0.17, 1)
+
+		&.active
+			transform: translateX(0)
+
+		@media (max-width: 480px)
+			font-size: 3.8rem
+			line-height: 3.8rem
+
+	@media (max-width: 768px)
+		margin-left: 0
+		
+	@media (max-width: 480px)
+		height: 3.5rem
+
+.sobre_text
+	width: percentage(5/12)
+	padding-top: 2.7rem
+
+	@media (max-width: 768px)
+		width: 100%
+		padding-left: 7.35%
+		padding-right: 7.35%
+
+	@media (max-width: 480px)
+		padding-top: 2.1rem
+
+.sobre_text_caster
+	width: 100%
+	display: none
+
+
+
+
+
+
+// =====================================
+// DONATE
+// =====================================
+
+
+.sobre, .donate
+	h3
+		width: 100%
+		text-align: left
+		font-size: 1.4rem
+		@extend %title
+		font-weight: 400
+		margin: 0 auto
+		letter-spacing: 0.2rem
+		opacity: .6
+
+.donate_wrap
+	display: flex
+	align-items: center
+	margin-top: 1rem
+
+	p
+		width: percentage(6/12)
+		margin-right: percentage(2/12)
+		+font-size1(2.1rem)
+		opacity: .8
+
+	@media (max-width: 768px)
+		margin-top: 1.6rem
+		flex-flow: column nowrap
+
+		p
+			width: 100%
+			margin: 0
+
+.donate_button
+	width: percentage(3/12)
+
+	@media (max-width: 768px)
+		width: 50%
+		margin-top: 5.1rem
+
+	@media (max-width: 480px)
+		width: 75%
+

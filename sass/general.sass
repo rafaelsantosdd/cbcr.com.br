@@ -1,0 +1,464 @@
+// AJUSTES
+
+html
+	font-size: 10px
+	overflow-x: hidden
+
+body
+	position: relative
+	@extend %text
+	font-size: 10px
+	color: $black
+
+a, a:hover, a:visited, a:hover, a:focus
+	text-decoration: none
+
+*:focus
+	outline: none
+
+img
+	width: 100%
+
+*
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+h1, h2, h3, h4, h5, h6
+	margin: 0
+
+input[type=submit], input[type=tel], input[type=text]
+	-webkit-appearance: none
+	border-radius: 0
+	border: 0
+
+button
+	border: none
+	background: none
+	cursor: pointer
+
+nav ul, .footer_icons
+	list-style: none
+	margin: 0
+	padding: 0
+
+section:not(.hero)
+	width: 100%
+	padding: 6.7rem 0 9rem
+
+section:not(.hero,.noticias) h2, .page_title, .post_title
+	@extend %title
+	font-size: 3.8rem
+	text-align: center
+	margin: 0 auto
+	letter-spacing: 0.15rem
+
+	@media (max-width: 768px)
+		font-size: 2.7rem
+
+section h2, .page_title, .post_title
+	font-weight: 400
+
+.page_title
+	margin-top: 9rem
+	margin-bottom: 6.7rem
+
+.post_header
+	margin-top: 9rem
+	margin-bottom: 6.7rem
+
+.post_return
+	font-size: 1.2rem
+	color: $black
+	opacity: .5
+	letter-spacing: .15rem
+	font-weight: 600
+
+	&:hover
+		text-decoration: underline
+
+.post_title
+	text-align: left
+	margin-top: 3.8rem
+	margin-bottom: 2.7rem
+
+.post_date
+	font-size: 1.6rem
+	opacity: .6
+
+
+
+// CONTAINERS
+
+.page_container
+	width: 100%
+
+.container, .minor_container
+	width: calc(100% - 5.1rem)
+	margin: 0 auto
+
+.container
+	position: relative
+	max-width: 1144px
+
+.minor_container
+	position: relative
+	max-width: 952px
+
+
+// CLASSES DE MANIPULAÇÃO
+
+.show
+	opacity: 1!important
+
+.no-scroll
+	overflow: hidden
+
+
+// SERIES COLORS
+
+.seriea
+	color: $yellow1
+
+.serieb
+	color: $green
+
+
+
+// RESPONSIVE
+
+.--desktop
+	display: block!important
+
+	@media (max-width: 768px)
+		display: none!important
+
+.--mobile
+	display: none!important
+
+	@media (max-width: 768px)
+		display: block!important
+
+
+// SEPARATOR
+
+.separator_container
+	width: 100%
+	padding: 4.5rem 0
+
+.separator
+	display: block
+	width: 160px
+	height: 1px
+	background: $black
+	opacity: .2
+
+
+
+// HEADER
+
+header.header
+	height: 9.6rem
+	width: 100%
+	left: 0
+	right: 0
+
+.header_inner
+	position: relative
+	display: flex
+	justify-content: space-between
+	align-items: center
+	height: 100%
+
+.header_menu
+	ul li
+		display: inline-block
+		margin-left: 5.1rem
+
+		a
+			display: block
+			@extend %title
+			font-size: 1.6rem
+			letter-spacing: 0.15rem
+			color: white
+			transition: 0.15s ease-in-out
+
+			&:hover
+				color: $gray
+
+	@media (max-width: 768px)
+		display: none
+
+.header_logo
+	display: block
+	height: 138px
+	margin-top: 7px
+	margin-left: -47px
+
+	img
+		width: auto
+		height: 100%
+
+.fixed_header
+	position: fixed
+	top: -100%
+	background: $black
+	overflow: hidden
+	z-index: 97
+	transition: 0.7s cubic-bezier(0.45, 0, 0.55, 1)
+
+	&.fixed_header--visible
+		top: 0
+
+.page_header ul li a
+	color: $black
+
+
+.menu_burguer, .ranking_team_close
+	position: absolute
+	top: 3.63rem
+	margin: 0
+	height: 2.4rem
+	width: 3.63rem
+	z-index: 99
+
+	span
+		position: absolute
+		display: block
+		left: 0
+		right: 0
+		height: 15%
+		background: white
+
+.menu_burguer
+	right: 0
+
+	span
+		transition: 0.2s ease-in-out
+
+		&:first-child
+			top: 0
+
+		&:nth-child(2)
+			top: 50%
+			transform: translateY(-50%)
+
+		&:last-child
+			bottom: 0
+
+	&.open span
+		&:first-child
+			transform: rotate(45deg) translate(7px,8px)
+
+		&:nth-child(2)
+			opacity: 0
+
+		&:last-child
+			transform: rotate(-45deg) translate(7px,-8px)
+
+
+.menu_burguer_fixed
+	position: fixed
+	top: -100%
+	right: 2.5rem
+	z-index: 99
+	height: 9.6rem
+	transition: 0.7s cubic-bezier(0.45, 0, 0.55, 1)
+
+	&.visible
+		top: 0
+
+.menu_mobile_wrap
+	position: fixed
+	top: 0
+	left: 0
+	bottom: 0
+	right: 0
+	background: rgba(0,0,0,0)
+	z-index: 98
+	pointer-events: none
+	transition: 0.4s ease-in-out
+
+	&.open
+		background: rgba(0,0,0,.7)
+		pointer-events: auto
+
+		.menu_mobile
+			left: 9rem
+
+.menu_mobile
+	display: flex
+	position: absolute
+	top: 0
+	bottom: 0
+	left: 100%
+	width: calc(100% - 9rem)
+	background: $blue
+	padding: 9rem 3.8rem 0
+	transition: 0.4s cubic-bezier(0.33, 1, 0.68, 1)
+	overflow: hidden
+
+	ul
+		position: relative
+		z-index: 2
+
+		li
+			display: block
+			margin-bottom: 3.8rem
+
+			a
+				font-size: 2.1rem
+				padding: 1rem 0
+				color: white
+				@extend %title
+
+	&:after
+		content: ""
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
+		background: linear-gradient(rgba(0, 106, 198,0),rgba(0, 106, 198,1))
+		z-index: 1
+
+.menu_mobile_bg 
+	position: absolute
+	top: 3.8rem
+	right: 2.1rem
+	width: 120%
+	opacity: 0.2
+
+	svg path
+		fill: none
+		stroke: white
+		stroke-width: 4
+		stroke-miterlimit: 10
+
+.menu_mobile_logo
+	position: absolute
+	bottom: 5.1rem
+	left: 3.8rem
+	width: 11rem
+	opacity: .7
+	z-index: 2
+
+
+
+// FOOTER
+
+.footer
+	width: 100%
+	padding: 6.7rem 0 2.7rem
+
+.footer_content
+	display: flex
+	flex-flow: row wrap
+
+	h4
+		font-size: 1.2rem
+		color: #607D8B
+		letter-spacing: 0.15rem
+		@extend %title
+		margin-bottom: 1.6rem
+
+	@media (max-width: 600px)
+		justify-content: center
+
+.footer_links
+	width: percentage(2/12)
+
+	a
+		color: $black
+		+font-size2(1.6rem)
+		text-decoration: underline
+		opacity: .8
+
+		@media (max-width: 600px)
+			+font-size2(1.4rem)
+
+.footer_logo
+	width: percentage(2/12)
+	padding-right: percentage(1/12)
+
+.footer_sponsors 
+	width: percentage(5/12)
+	margin-right: percentage(1/12)
+
+.footer_icons
+	width: percentage(2/12)
+
+	li
+		display: inline-block
+		margin-right: 1rem
+
+		a
+			font-size: 2.7rem
+
+	.fa-twitter-square
+		color: #1DA1F2
+
+	.fa-youtube-square
+		color: #FF0000
+
+.footer_dev
+	width: 100%
+	text-align: center
+	font-size: 1.2rem
+	opacity: .6
+	padding-top: 1.6rem
+
+	a
+		color: $black
+		text-decoration: underline
+
+@media (max-width: 600px)
+	.footer_links,
+	.footer_sponsors, 
+	.footer_icons
+		margin: 6.7rem 0 0 0
+
+	.footer_links, 
+	.footer_icons,
+	.footer_logo
+		width: 50%
+		padding: 0
+
+	.footer_logo
+		width: 40%
+		padding: 0
+
+	.footer_sponsors
+		width: 100%
+
+	.footer_dev
+		padding-top: 2.7rem
+
+
+
+// 404
+
+.notfound_container
+	width: 100%
+	height: 80vh
+	display: flex
+	justify-content: center
+	align-items: center
+
+.notfound_group
+	h1
+		font-size: 6.7rem
+		color: $blue
+
+	h2
+		font-size: 2.7rem
+		opacity: .9
+		margin-top: 1rem
+
+	a
+		display: block
+		font-size: 1.6rem
+		opacity: .7
+		color: $black
+		text-decoration: underline
+		margin-top: 3.8rem
